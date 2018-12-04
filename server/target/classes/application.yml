@@ -1,0 +1,10 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+
+queue:
+  task: runtask.q
+
+logging:
+  level:
+    ROOT: DEBUG

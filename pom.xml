@@ -26,7 +26,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<spring-cloud.version>Finchley.SR2</spring-cloud.version>
 		<java.version>1.8</java.version>
+		<lombok.version>1.16.18</lombok.version>
 	</properties>
 
 	<dependencies>
@@ -40,8 +42,14 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
 
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>${lombok.version}</version>
+				<scope>provided</scope>
+			</dependency>
+		</dependencies>
 	<build>
 		<plugins>
 			<plugin>
