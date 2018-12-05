@@ -8,6 +8,6 @@ spring:
 queue:
   task: runtask.q
 
-logging:
-  level:
-    ROOT: DEBUG
+#logging:
+#  level:
+#    ROOT: DEBUG
