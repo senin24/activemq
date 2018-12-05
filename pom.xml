@@ -6,7 +6,7 @@
 	<groupId>com.github.senin24.jms</groupId>
 	<artifactId>activemq</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+	<packaging>pom</packaging>
 
 	<name>activemq</name>
 	<description>Demo project for Spring Boot</description>
@@ -26,9 +26,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<spring-cloud.version>Finchley.SR2</spring-cloud.version>
 		<java.version>1.8</java.version>
-		<lombok.version>1.16.18</lombok.version>
 	</properties>
 
 	<dependencies>
@@ -46,7 +44,7 @@
 			<dependency>
 				<groupId>org.projectlombok</groupId>
 				<artifactId>lombok</artifactId>
-				<version>${lombok.version}</version>
+				<version>1.16.18</version>
 				<scope>provided</scope>
 			</dependency>
 		</dependencies>
