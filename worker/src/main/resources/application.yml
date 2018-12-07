@@ -1,5 +1,15 @@
-activemq:
-  broker-url: tcp://localhost:61616
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
 
-queue:
-  task: runtask.q
+serverqueue:
+  outbound: outbound.queue
+  inbound: inbound.queue
+
+worker:
+  current-node-number: ${random.int[100,999]}
+
+
+#logging:
+#  level:
+#    ROOT: DEBUG

@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>server</artifactId>	
+	<artifactId>server</artifactId>
 	<packaging>jar</packaging>
 
 	<name>server</name>
@@ -13,5 +13,18 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<artifactId>activemq</artifactId>	
 	</parent>
+
+	<dependencies>
+		<!--<dependency>-->
+			<!--<groupId>org.apache.activemq</groupId>-->
+			<!--<artifactId>activemq-kahadb-store</artifactId>-->
+			<!--<version>5.15.7</version>-->
+		<!--</dependency>-->
+		<dependency>
+			<groupId>org.apache.activemq</groupId>
+			<artifactId>activemq-broker</artifactId>
+			<version>5.15.7</version>
+		</dependency>
+    </dependencies>
 	
 </project>

@@ -1,12 +1,12 @@
 spring:
   activemq:
-#    broker-url: tcp://localhost:61616
-    broker-url: vm://embedded?broker.persistent=false
+    broker-url: tcp://localhost:61616
     in-memory: true
     non-blocking-redelivery: true
 
-queue:
-  task: runtask.q
+serverqueue:
+  outbound: outbound.queue
+  inbound: inbound.queue
 
 #logging:
 #  level:
