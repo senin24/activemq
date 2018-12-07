@@ -1,5 +1,5 @@
 # activemq
-Example Embedded ActiveMQ with Spring Boot apps
+Example Embedded ActiveMQ with Spring Boot apps. Apps runing at one localhost machine.
 
 ![Diagram](https://github.com/senin24/activemq/blob/master/EmbeddedActiveMQwithSpringBoot.png)
 
